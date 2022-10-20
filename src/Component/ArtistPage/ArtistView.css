@@ -1,0 +1,42 @@
+.artist-middle-box{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artist-view-box{
+    width: 320px;
+    height: 340px;
+    background-color: white;
+
+    margin: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 5px 20px 25px 10px rgb(224, 224, 224);
+    margin-bottom: 40px;
+}
+
+.artist-view-photo{
+    width: 318px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.artist-view-description{
+    text-align: center;
+    width: 318px;
+    height: 120px;
+    flex-wrap: wrap;
+}
+
+.artist-view-description h1{
+    font-size: 20px;
+    margin: 0px;
+    background-color: rgb(212, 212, 212);
+}
+
+.artist-view-description h2{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px;
+}

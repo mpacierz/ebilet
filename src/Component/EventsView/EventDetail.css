@@ -1,0 +1,186 @@
+#detail{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#middle-box{
+    width: 80%;
+    border: 1px solid rgb(216, 215, 215);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+#left-panel{
+    border-right: 1px solid rgb(226, 226, 226);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#detail-picture{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(216, 215, 215);
+    margin: 15px 25px 25px 25px;
+}
+
+#left-panel-artist{
+    width: 100%;
+    border-top: 1px solid rgb(216, 215, 215);
+}
+
+#left-panel-artist h1{
+    padding: 15px;
+    text-align: center;
+}
+
+#left-panel-artist-info{
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#detail-top-title{
+    width: 100%;
+    padding: 25px 25px 25px 25px;
+    color: black;
+}
+
+#detail-top-title-fav{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#detail-top-title-fav button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.favourite-icon{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+#detail-description{
+    font-size: 21px;
+    padding-top: 25px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+#detail-org-info{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.detail-org-info-icons{
+    padding-right: 2px;
+    vertical-align:text-top;
+}
+
+
+#detail h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+#detail h2{
+    font-size: 20px;
+    margin: 0;
+    color: rgb(155, 151, 151);
+}
+
+#ticket-detail{
+    width: 100%;
+    height: 80px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+#ticket-detail-left{
+    width: 60%;
+    height: 80px;
+    padding-left: 10px;
+    background-color: rgb(235, 234, 232);
+    float: left;
+}
+
+#ticket-detail-right{
+    width: 40%;
+    height: 80px;
+    background-color: rgb(196, 196, 196);
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#ticket-detail-right:hover{
+    width: 40%;
+    height: 80px;
+    background-color: rgb(224, 226, 73);
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#ticket-detail-right-null{
+    width: 40%;
+    height: 80px;
+    background-color: rgb(196, 196, 196);
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+    color:red;
+}
+
+#warning{
+    color: rgb(245, 101, 6);
+}
+
+#warning img{
+    vertical-align: middle;
+}
+
+
+#location-info{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+#location-info-left{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    padding-left:30px;
+    background-image: linear-gradient(to right, rgb(217, 240, 215) , rgb(218, 233, 184));
+}
+
+#location-info-right{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: end;
+    background-image: linear-gradient(to left, rgb(217, 240, 215) , rgb(218, 233, 184));
+}
+
+#location-info-bottom{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+.event-detail-map{
+    width:100%;
+    height:100%;
+    border:none;
+}

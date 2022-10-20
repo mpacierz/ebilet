@@ -1,0 +1,96 @@
+.top-title {
+    padding-top: 20px;
+    height: 50px;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.top-title h1 {
+    padding-left: 10%;
+    margin: 0;
+}
+
+
+.recommended {
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.recommended h1 {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 40px;
+    color: black;
+}
+
+#promotion-event {
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.index-page-promotion-event-button {
+    color: white;
+    border: none;
+    font-size: large;
+    padding: 25px 60px;
+    background-color: #000000;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.index-page-promotion-event-button:hover {
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 25px 60px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#last-events-title {
+    font-size: 26px;
+    margin-left: 20%;
+    font-weight: bold;
+    height: 30px;
+    width: 100%;
+}
+
+
+#promotion-description {
+    width: 20%;
+    height: 100%;
+    font-size: 28px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#promotion-image {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+#promotion-check-out {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}

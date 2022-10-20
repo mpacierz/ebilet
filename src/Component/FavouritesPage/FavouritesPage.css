@@ -1,0 +1,15 @@
+
+#fav-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#fav-events-info{
+    margin-top: 30px;
+    padding-left: 20px;
+    width: 70%;
+    min-height: 50vh;
+    border: 1px solid rgb(214, 214, 214);
+    background-color: white;
+}

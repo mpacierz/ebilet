@@ -1,0 +1,48 @@
+#services{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#services h1{
+    font-size: 26px;
+}
+
+.log-reg-services{
+    width:30%;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    border: 1px solid rgb(197, 197, 197);
+}
+
+#login-services{
+    background-color: rgb(255, 255, 255);
+}
+
+#register-services{
+    background-color: rgb(255, 255, 255);
+}
+
+#register-services Form{
+  color: black;
+}
+
+.log-reg-services Button{
+    width: 20%;
+    height: 30px;
+    border: none;
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+#reg-results{
+    width: 50%;
+    font-weight: bold;
+    padding-top: 30px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    vertical-align: middle;
+}

@@ -1,0 +1,59 @@
+#object-page{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(214, 214, 214);
+    font-size: 18px;
+}
+
+#object-page h1{
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.object-info-icons{
+    vertical-align:middle;
+    margin-right: 5px;
+}
+
+#object-page-top-info{
+    width: 100%;
+    min-height: 300px;
+    background-image: linear-gradient(to right, rgb(238, 238, 238) , rgb(214, 214, 214));
+}
+
+#object-page-top-info-photo{
+    padding: 15px;
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+
+#object-page-top-info-description{
+    padding: 15px;
+    width: 100%;
+    min-height: 300px;
+}
+
+#object-page-map{
+    width: 100%;
+    min-height: 200px;
+    background-color: rgb(241, 241, 241);
+}
+
+.object-detail-map{
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+
+#object-page-events{
+    padding-top: 20px;
+    min-height: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}

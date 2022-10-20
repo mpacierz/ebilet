@@ -1,0 +1,31 @@
+#pay-info-box{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#pay-info-box-middle{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid silver;
+}
+
+#pay-info-box-middle h2{
+    color: rgb(43, 139, 13);
+    background-color: rgb(211, 238, 204);
+}
+
+#pay-info-box-middle button{
+    height: 40px;
+    width:180px;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    background-color: #cfc673;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #cec579;
+}
